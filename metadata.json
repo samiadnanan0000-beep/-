@@ -1,0 +1,6 @@
+{
+  "name": "وافي - دفتر الديون والذهب",
+  "description": "تطبيق وافي لإدارة الديون وحسابات العملاء والذهب والمعادن بتصميم One UI 8 ونمط Offline-First فائق السرعة",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

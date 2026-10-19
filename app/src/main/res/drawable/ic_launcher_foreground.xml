@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer Golden Shield / Crest -->
+    <path
+        android:pathData="M54,24 C68,24 76,28 78,34 C78,54 68,72 54,82 C40,72 30,54 30,34 C32,28 40,24 54,24 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="30"
+                android:startY="24"
+                android:endX="78"
+                android:endY="82"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFE082" />
+                <item android:offset="0.5" android:color="#FFB300" />
+                <item android:offset="1.0" android:color="#FF8F00" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Inner Shield Inset for 3D bevel look -->
+    <path
+        android:pathData="M54,27 C65.5,27 72.5,30.5 74.5,35.5 C74.5,52.5 65.5,67.5 54,76.5 C42.5,67.5 33.5,52.5 33.5,35.5 C35.5,30.5 42.5,27 54,27 Z"
+        android:fillColor="#0D1B2A" />
+
+    <!-- Scales of Debt & Gold / Ledger Balance Symbol -->
+    <!-- Center Pillar -->
+    <path
+        android:pathData="M52.5,35 L55.5,35 L55.5,67 L52.5,67 Z"
+        android:fillColor="#FFD54F" />
+    <!-- Center Top Finial -->
+    <path
+        android:pathData="M54,32m-2.5,0a2.5,2.5 0,1,1 5,0a2.5,2.5 0,1,1 -5,0"
+        android:fillColor="#FFE082" />
+    <!-- Horizontal Crossbeam -->
+    <path
+        android:pathData="M38,41 L70,41 L70,43.5 L38,43.5 Z"
+        android:fillColor="#FFCA28" />
+
+    <!-- Left Balance Pan (Debtor / له) -->
+    <path
+        android:pathData="M40,43.5 L37,53 L45,53 Z"
+        android:strokeColor="#FFD54F"
+        android:strokeWidth="1.2"
+        android:fillColor="#00000000" />
+    <path
+        android:pathData="M35,53 C35,56.5 47,56.5 47,53 Z"
+        android:fillColor="#4CAF50" />
+
+    <!-- Right Balance Pan (Creditor / عليه) -->
+    <path
+        android:pathData="M68,43.5 L63,53 L71,53 Z"
+        android:strokeColor="#FFD54F"
+        android:strokeWidth="1.2"
+        android:fillColor="#00000000" />
+    <path
+        android:pathData="M61,53 C61,56.5 73,56.5 73,53 Z"
+        android:fillColor="#E53935" />
+
+    <!-- Base Pedestal -->
+    <path
+        android:pathData="M47,67 L61,67 L63,70 L45,70 Z"
+        android:fillColor="#FFC107" />
+</vector>
